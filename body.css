@@ -1,0 +1,124 @@
+@charset "utf-8";
+body {
+	background-image: url("https://t.mwm.moe/fj/");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+}
+
+.fanwei {
+    background-color: rgba(255,255,255,0.8);
+    top: 50%;
+    bottom: 50%;
+    height: 650px;
+    position: absolute;
+    width: 80%;
+    transform: translateX(-50%);
+    left: 50%;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+.A1_1 {
+	/*大范围宽度80%*/
+	background-color: rgba(178,178,178,0.80);
+	position: absolute;
+	width: 25%;
+	height: 150px;
+	left: 6.25%;
+	top: 50px;
+	border-radius: 10px;/*原角度*/
+	box-shadow: 0px 0px 10px 10px rgba(178,178,178,0.8);/*水平偏移 垂直偏移 模糊距离(程度) 阴影大小 阴影颜色*/
+}
+
+.A1_2 {
+	/*大范围宽度80%*/
+	background-color: rgba(178,178,178,0.80);
+	position: absolute;
+	width: 25%;
+	height: 150px;
+	left: 37.5%;
+	top: 50px;
+	border-radius: 10px;/*原角度*/
+	box-shadow: 0px 0px 10px 10px rgba(178,178,178,0.8);/*水平偏移 垂直偏移 模糊距离(程度) 阴影大小 阴影颜色*/
+}
+
+.A1_3 {
+	/*大范围宽度80%*/
+	background-color: rgba(178,178,178,0.80);
+	position: absolute;
+	width: 25%;
+	height: 150px;
+	left: 68.75%;
+	top: 50px;
+	border-radius: 10px;/*原角度*/
+	box-shadow: 0px 0px 10px 10px rgba(178,178,178,0.8);/*水平偏移 垂直偏移 模糊距离(程度) 阴影大小 阴影颜色*/
+}
+
+.A2_1 {
+	/*大范围宽度80%*/
+	background-color: rgba(178,178,178,0.80);
+	position: absolute;
+	width: 25%;
+	height: 150px;
+	left: 6.25%;
+	top: 250px;
+	border-radius: 10px;/*原角度*/
+	box-shadow: 0px 0px 10px 10px rgba(178,178,178,0.8);/*水平偏移 垂直偏移 模糊距离(程度) 阴影大小 阴影颜色*/
+}
+
+.A2_2 {
+	/*大范围宽度80%*/
+	background-color: rgba(178,178,178,0.80);
+	position: absolute;
+	width: 25%;
+	height: 150px;
+	left: 37.5%;
+	top: 250px;
+	border-radius: 10px;/*原角度*/
+	box-shadow: 0px 0px 10px 10px rgba(178,178,178,0.8);/*水平偏移 垂直偏移 模糊距离(程度) 阴影大小 阴影颜色*/
+}
+
+.A2_3 {
+	/*大范围宽度80%*/
+	background-color: rgba(178,178,178,0.80);
+	position: absolute;
+	width: 25%;
+	height: 150px;
+	left: 68.75%;
+	top: 250px;
+	border-radius: 10px;/*原角度*/
+	box-shadow: 0px 0px 10px 10px rgba(178,178,178,0.8);/*水平偏移 垂直偏移 模糊距离(程度) 阴影大小 阴影颜色*/
+}
+
+.A3_1 {
+	/*大范围宽度80%*/
+	background-color: rgba(178,178,178,0.80);
+	position: absolute;
+	width: 25%;
+	height: 150px;
+	left: 6.25%;
+	top: 450px;
+	border-radius: 10px;/*原角度*/
+	box-shadow: 0px 0px 10px 10px rgba(178,178,178,0.8);/*水平偏移 垂直偏移 模糊距离(程度) 阴影大小 阴影颜色*/
+}
+
+
+
+
+.icon {
+    position: absolute;
+    top: 50%;
+	transform: translateY(-50%);
+    bottom: 0%;
+    left: 5%;
+}
+.icon_title {
+    width: 65%;
+    position: absolute;
+    left: 35%;
+    text-align: center;
+	top: 50%;
+	transform: translateY(-75%);
+	
+}
