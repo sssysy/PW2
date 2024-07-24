@@ -2,12 +2,17 @@
 body {
 	background-image: url("https://t.mwm.moe/fj/");
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: cover;
 	background-attachment: fixed;
+	background-position: center;
+	margin: 0;
+	
 }
 
 .fanwei {
-    background-color: rgba(255,255,255,0.8);
+    background-color: rgba(178,178,178,0.5);
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
     top: 50%;
     bottom: 50%;
     height: 650px;
@@ -17,94 +22,143 @@ body {
     left: 50%;
     border-top-right-radius: 30px;
     border-top-left-radius: 30px;
+	box-shadow: 0px 0px 10px 10px rgba(178,178,178,0.5);/*水平偏移 垂直偏移 模糊距离(程度) 阴影大小 阴影颜色*/
 }
 
 .A1_1 {
 	/*大范围宽度80%*/
-	background-color: rgba(178,178,178,0.80);
+	background-color: rgba(255,255,255,0.6);
 	position: absolute;
 	width: 25%;
 	height: 150px;
 	left: 6.25%;
 	top: 50px;
 	border-radius: 10px;/*原角度*/
-	box-shadow: 0px 0px 10px 10px rgba(178,178,178,0.8);/*水平偏移 垂直偏移 模糊距离(程度) 阴影大小 阴影颜色*/
+	box-shadow: 0px 0px 10px 10px rgba(255,255,255,0.6);/*水平偏移 垂直偏移 模糊距离(程度) 阴影大小 阴影颜色*/
+	cursor:pointer;
+	transition: box-shadow 0.2s ease, background-color 0.2s ease;
+
 }
 
 .A1_2 {
 	/*大范围宽度80%*/
-	background-color: rgba(178,178,178,0.80);
+	background-color: rgba(255,255,255,0.6);
 	position: absolute;
 	width: 25%;
 	height: 150px;
 	left: 37.5%;
 	top: 50px;
 	border-radius: 10px;/*原角度*/
-	box-shadow: 0px 0px 10px 10px rgba(178,178,178,0.8);/*水平偏移 垂直偏移 模糊距离(程度) 阴影大小 阴影颜色*/
+	box-shadow: 0px 0px 10px 10px rgba(255,255,255,0.6);/*水平偏移 垂直偏移 模糊距离(程度) 阴影大小 阴影颜色*/
+	cursor:pointer;
+	transition: box-shadow 0.2s ease, background-color 0.2s ease;
 }
 
 .A1_3 {
 	/*大范围宽度80%*/
-	background-color: rgba(178,178,178,0.80);
+	background-color: rgba(255,255,255,0.6);
 	position: absolute;
 	width: 25%;
 	height: 150px;
 	left: 68.75%;
 	top: 50px;
 	border-radius: 10px;/*原角度*/
-	box-shadow: 0px 0px 10px 10px rgba(178,178,178,0.8);/*水平偏移 垂直偏移 模糊距离(程度) 阴影大小 阴影颜色*/
+	box-shadow: 0px 0px 10px 10px rgba(255,255,255,0.6);/*水平偏移 垂直偏移 模糊距离(程度) 阴影大小 阴影颜色*/
+	cursor:pointer;
+	transition: box-shadow 0.2s ease, background-color 0.2s ease;
 }
 
 .A2_1 {
 	/*大范围宽度80%*/
-	background-color: rgba(178,178,178,0.80);
+	background-color: rgba(255,255,255,0.6);
 	position: absolute;
 	width: 25%;
 	height: 150px;
 	left: 6.25%;
 	top: 250px;
 	border-radius: 10px;/*原角度*/
-	box-shadow: 0px 0px 10px 10px rgba(178,178,178,0.8);/*水平偏移 垂直偏移 模糊距离(程度) 阴影大小 阴影颜色*/
+	box-shadow: 0px 0px 10px 10px rgba(255,255,255,0.6);/*水平偏移 垂直偏移 模糊距离(程度) 阴影大小 阴影颜色*/
+	cursor:pointer;
+	transition: box-shadow 0.2s ease, background-color 0.2s ease;
 }
 
 .A2_2 {
 	/*大范围宽度80%*/
-	background-color: rgba(178,178,178,0.80);
+	background-color: rgba(255,255,255,0.6);
 	position: absolute;
 	width: 25%;
 	height: 150px;
 	left: 37.5%;
 	top: 250px;
 	border-radius: 10px;/*原角度*/
-	box-shadow: 0px 0px 10px 10px rgba(178,178,178,0.8);/*水平偏移 垂直偏移 模糊距离(程度) 阴影大小 阴影颜色*/
+	box-shadow: 0px 0px 10px 10px rgba(255,255,255,0.6);/*水平偏移 垂直偏移 模糊距离(程度) 阴影大小 阴影颜色*/
+	cursor:pointer;
+	transition: box-shadow 0.2s ease, background-color 0.2s ease;
 }
 
 .A2_3 {
 	/*大范围宽度80%*/
-	background-color: rgba(178,178,178,0.80);
+	background-color: rgba(255,255,255,0.6);
 	position: absolute;
 	width: 25%;
 	height: 150px;
 	left: 68.75%;
 	top: 250px;
 	border-radius: 10px;/*原角度*/
-	box-shadow: 0px 0px 10px 10px rgba(178,178,178,0.8);/*水平偏移 垂直偏移 模糊距离(程度) 阴影大小 阴影颜色*/
+	box-shadow: 0px 0px 10px 10px rgba(255,255,255,0.6);/*水平偏移 垂直偏移 模糊距离(程度) 阴影大小 阴影颜色*/
+	cursor:pointer;
+	transition: box-shadow 0.2s ease, background-color 0.2s ease;
 }
 
 .A3_1 {
 	/*大范围宽度80%*/
-	background-color: rgba(178,178,178,0.80);
+	background-color: rgba(255,255,255,0.6);
 	position: absolute;
 	width: 25%;
 	height: 150px;
 	left: 6.25%;
 	top: 450px;
 	border-radius: 10px;/*原角度*/
-	box-shadow: 0px 0px 10px 10px rgba(178,178,178,0.8);/*水平偏移 垂直偏移 模糊距离(程度) 阴影大小 阴影颜色*/
+	box-shadow: 0px 0px 10px 10px rgba(255,255,255,0.6);/*水平偏移 垂直偏移 模糊距离(程度) 阴影大小 阴影颜色*/
+	cursor:pointer;
+	transition: box-shadow 0.2s ease, background-color 0.2s ease;
 }
 
+.A1_1:hover {/*鼠标进入事件*/
+	box-shadow: 4px 4px 10px 10px rgba(255,255,255,0.8);/*水平偏移 垂直偏移 模糊距离(程度) 阴影大小 阴影颜色*/
+	background-color: rgba(255,255,255,0.80)
+}
 
+.A1_2:hover {/*鼠标进入事件*/
+	box-shadow: 4px 4px 10px 10px rgba(255,255,255,0.8);/*水平偏移 垂直偏移 模糊距离(程度) 阴影大小 阴影颜色*/
+	background-color: rgba(255,255,255,0.80)
+}
 
+.A1_3:hover {/*鼠标进入事件*/
+	box-shadow: 4px 4px 10px 10px rgba(255,255,255,0.8);/*水平偏移 垂直偏移 模糊距离(程度) 阴影大小 阴影颜色*/
+	background-color: rgba(255,255,255,0.80)
+}
+
+.A2_1:hover {/*鼠标进入事件*/
+
+	box-shadow: 4px 4px 10px 10px rgba(255,255,255,0.8);/*水平偏移 垂直偏移 模糊距离(程度) 阴影大小 阴影颜色*/
+	background-color: rgba(255,255,255,0.80)
+}
+
+.A2_2:hover {/*鼠标进入事件*/
+	box-shadow: 4px 4px 10px 10px rgba(255,255,255,0.8);/*水平偏移 垂直偏移 模糊距离(程度) 阴影大小 阴影颜色*/
+	background-color: rgba(255,255,255,0.80)
+}
+
+.A2_3:hover {/*鼠标进入事件*/
+	box-shadow: 4px 4px 10px 10px rgba(255,255,255,0.8);/*水平偏移 垂直偏移 模糊距离(程度) 阴影大小 阴影颜色*/
+	background-color: rgba(255,255,255,0.80)
+}
+
+.A3_1:hover {/*鼠标进入事件*/
+	box-shadow: 4px 4px 10px 10px rgba(255,255,255,0.8);/*水平偏移 垂直偏移 模糊距离(程度) 阴影大小 阴影颜色*/
+	background-color: rgba(255,255,255,0.80)
+}
 
 .icon {
     position: absolute;

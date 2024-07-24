@@ -15,6 +15,7 @@
 	position: absolute;
 	content: '';
     backdrop-filter: blur(8px);
+	-webkit-backdrop-filter: blur(8px);
 	z-index: -1;
 
     border-radius: 272px;
